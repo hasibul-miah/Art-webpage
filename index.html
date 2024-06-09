@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="canvas" width="200" height="200"></canvas>
+<div class="inputs">
+    <table>
+        <tr>
+            <td>Propagation</td>
+            <td>
+                <input type="number" onchange="cahanepro(this.value)" min="2" value="8">
+            </td>
+        </tr>
+        <tr>
+            <td>Speed</td>
+            <td>
+                <input type="number" onchange="changeAngleIncrement(this.value)" onmousedown="changeAngleIncrement(this.value)" onkeypress="changeAngleIncrement(this.value)" min="0" value="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Thickness</td>
+            <td>
+                
+                <input type="number" onchange="changeThichnessAngel(this.value)" min="0" value="2">
+            </td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td>
+                <input type="color" value="#ffffff" id="color">
+            </td>
+        </tr>
+        <tr>
+            <td>Venkadenrence - Wiknessuhtyiss Gallagher</td>
+            <td>
+                <audio controls controlsList="nodownload noplay">
+                    <source src="Syn Cole - Time [NCS Release].mp3" type="audio/mpeg">
+                </audio>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
